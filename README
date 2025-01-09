@@ -1,6 +1,0 @@
-- installazione pacchetto con install_github...
-
--struttura della cartella
-
-devtools::install_github("mfasiolo/mgcViz")
-install_github("mfasiolo/gamfactory", ref = "dev")
