@@ -1,4 +1,7 @@
 rm(list=ls())
+#devtools::install_github("mfasiolo/mgcViz")
+#devtools::install_github("mfasiolo/gamfactory", ref = "dev")
+
 library(gamFactory)
 library(mgcViz)
 load("./wind_gen.rda")

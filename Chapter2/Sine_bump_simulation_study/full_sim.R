@@ -1,11 +1,9 @@
 #####################################
 # code to perform simulations with gamFactory
 #####################################
-# Sys.setenv(OPENBLAS_NUM_THREADS = 1)
-# Sys.setenv(MKL_NUM_THREADS = 1)
-# Sys.setenv(OMP_NUM_THREADS = 1)
-# Sys.setenv(BLIS_NUM_THREADS = 1)
-# Sys.setenv(FFTW_NUM_THREADS = 1)
+#devtools::install_github("mfasiolo/mgcViz")
+#devtools::install_github("mfasiolo/gamfactory", ref = "dev")
+
 library(gamFactory)
 set.seed(1234)
 n <- 1000

@@ -1,6 +1,9 @@
 ########################################
 #  Simulations to compare test results from gplsim package and gamFactory
 ########################################
+#devtools::install_github("mfasiolo/mgcViz")
+#devtools::install_github("mfasiolo/gamfactory", ref = "dev")
+
 rm(list=ls())
 library(gplsim)
 library(gamFactory)

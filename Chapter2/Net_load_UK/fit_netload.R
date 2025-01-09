@@ -1,3 +1,6 @@
+#devtools::install_github("mfasiolo/mgcViz")
+#devtools::install_github("mfasiolo/gamfactory", ref = "dev")
+
 library(gamFactory)
 library(mgcViz)
 library(scoringRules)
